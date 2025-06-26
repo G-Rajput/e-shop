@@ -1,0 +1,143 @@
+/* .table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+.pricing-table thead th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pricing-table tbody td {
+  background-color: #f9f9f9;
+}
+
+.signup-btn,
+.paid-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background-color: #007bff;
+}
+
+.paid-btn {
+  background-color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .pricing-table th,
+  .pricing-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .signup-btn,
+  .paid-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+} */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-spacing: 0;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd; /* Only horizontal borders */
+}
+
+.pricing-table thead th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #dddddd;
+}
+
+.pricing-table tbody td {
+  background-color: #f9f9f9;
+}
+
+.signup-btn,
+.paid-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background-color: #007bff;
+}
+
+.paid-btn {
+  background-color: #28a745;
+}
+.pricing-table thead th:first-child {
+  border-top-left-radius: 8px; /* Top-left corner */
+  border-bottom-left-radius: 8px;
+}
+
+.pricing-table thead th:last-child {
+  border-top-right-radius: 8px; /* Top-right corner */
+  border-bottom-right-radius: 8px; /* Top-left corner */
+}
+.pricing-table tbody {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  overflow: hidden; /* To ensure inner content respects the border-radius */
+}
+tr {
+  border: 1px solid;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .pricing-table th,
+  .pricing-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .signup-btn,
+  .paid-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

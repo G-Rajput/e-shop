@@ -1,0 +1,23 @@
+.footer-wrapper {
+  font-size: 14px;
+  padding: 14px;
+  height: 30px;
+  text-align: center;
+  background-color: #015659;
+}
+.footer-wrapper:hover {
+  box-shadow: 0 0 30px #015659;
+}
+.blue_color {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
